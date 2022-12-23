@@ -4,14 +4,12 @@ import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import io from 'socket.io-client';
 import Editor from 'react-simple-code-editor';
-import { highlight, languages } from 'prismjs'; //components/prism-core';
+import { highlight, languages } from 'prismjs';
 import { Button } from '@mui/material';
-// import 'prismjs/components/prism-clike';
-// import 'prismjs/components/prism-javascript';
 import 'prismjs/themes/prism.css';
 import '../App.css'
 
-const backendUri = require('../config.json').backend;
+const backendUri = 'http://54.211.167.74:80/';
 const socket = io.connect(backendUri);
 
 /**
