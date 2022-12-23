@@ -8,7 +8,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import TextField from '@mui/material/TextField';
 import '../App.css';
 
-const backendUri = 'http://54.211.167.74:80/';
+const backendUri = require('../config.json').backend;
 
 /**
  * The Lobby componenet is shown when the user open the app.
