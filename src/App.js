@@ -18,7 +18,10 @@ function App() {
     <div className="App">
       <Router>
         <header className="App-header">
-          <h1><img src={require('./assets/logo.png')} className='App-Logo'/>Online Code Blocks</h1>
+          <div className="App-Title">
+            <img src={require('./assets/logo.png')} className='App-Logo'/>
+            <h1>Online Code Blocks</h1>
+          </div>
           <hr style={{
             color: 'white',
             background: 'white',

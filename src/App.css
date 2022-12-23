@@ -9,13 +9,6 @@
   background-color: #282c34;
 }
 
-.App-Logo {
-  margin-right: 15px;
-  margin-bottom: 5px;
-  height: 6vmin;
-  pointer-events: none;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -28,9 +21,19 @@
   justify-content: top;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-top: 50px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.App-Title {
+  display: flex;
+  align-items: center;
+}
+
+.App-Logo {
+  margin-right: 15px;
+  height: 6vmin;
 }
 
 .App-body {
@@ -70,6 +73,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+  margin-bottom: -40px;
 }
 
 .Lobby-List {
