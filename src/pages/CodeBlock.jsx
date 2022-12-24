@@ -103,6 +103,11 @@ function CodeBlock() {
     joinRoom();
     socket.on('recieve_message', (message) => {
       setCode(message);
+      if (message === ans[0]) {
+        setSmile(true);
+      } else {
+        setSmile(false);
+      }
     });
   }, [socket]);
 
