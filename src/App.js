@@ -1,8 +1,7 @@
 // Written by Shlomi Ben-Shushan.
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import firebase from './firebase';
 import './App.css';
 
 import Login from "./pages/Login"
@@ -16,14 +15,6 @@ const github = <a href='https://github.com/shlomi1993/' className='App-link'>Git
 
 // The app is divided to three visual parts - the header, the body and the footer.
 function App() {
-
-  // const [user, setUser] = useState(null);
-
-  // useEffect(() => {
-  //   firebase.auth().onAuthStateChanged(user => {
-  //     setUser(user);
-  //   })
-  // }, [])
 
   return (
     <div className="App">

@@ -9,7 +9,7 @@ import { Button } from '@mui/material';
 import 'prismjs/themes/prism.css';
 import '../App.css'
 
-const backendUri = require('../config.json').backend;
+const backendUri = require('../config.json').gateway;
 const socket = io.connect(backendUri);
 
 /**
