@@ -63,7 +63,7 @@ const Login = () => {
   </div> 
 
   const error = <div className='Login-error'>
-    <h3>Error {errorCode}:</h3>
+    <h3>Error: {errorCode}</h3>
     <p>{errorMessage}</p>
   </div>
 
