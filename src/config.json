@@ -1,3 +1,4 @@
 {
-    "backend": "https://16tzh9vb6e.execute-api.us-east-1.amazonaws.com/"
+    "backend": "http://localhost:8080/",
+    "backend_d": "https://16tzh9vb6e.execute-api.us-east-1.amazonaws.com/"
 }
