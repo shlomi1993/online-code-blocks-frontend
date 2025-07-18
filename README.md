@@ -4,8 +4,6 @@ This repository contains the **React frontend application** for *Online Code Blo
 
 The frontend is built using **React**, **Firebase Authentication**, **Socket.IO**, **Material-UI**, and **PrismJS**, with support for real-time synchronization and intuitive user experience.
 
----
-
 ## Features
 
 * Google Sign-in using **Firebase Authentication**
@@ -16,8 +14,6 @@ The frontend is built using **React**, **Firebase Authentication**, **Socket.IO*
 * Dynamic lobby to manage, create, and delete code blocks
 * Error handling and fallback for non-existent routes
 
----
-
 ## Tech Stack
 
 * **React** - with React Router
@@ -26,8 +22,6 @@ The frontend is built using **React**, **Firebase Authentication**, **Socket.IO*
 * **Material-UI** - for UI components
 * **PrismJS** - for syntax highlighting
 * **React Simple Code Editor** - as the core code input interface
-
----
 
 ## Project Structure
 
@@ -48,8 +42,6 @@ online-code-blocks-frontend/
 │       ├── CodeBlock.jsx       # Real-time collaborative code editor
 │       └── Error.jsx           # 404 fallback screen
 ```
-
----
 
 ## Pages Overview
 
@@ -79,8 +71,6 @@ online-code-blocks-frontend/
 * Displays an error page for unknown routes.
 * Basic "404: Page not found" message.
 
----
-
 ## Configuration
 
 Update `src/config.json` to include Firebase credentials and backend gateway:
@@ -100,8 +90,6 @@ Update `src/config.json` to include Firebase credentials and backend gateway:
 ```
 
 Make sure the backend server is accessible at the URI provided in `gateway`.
-
----
 
 ## Getting Started
 
@@ -126,8 +114,6 @@ http://localhost:3000
 ### 3. Ensure backend is running
 
 Make sure the [online-code-blocks-backend](https://github.com/your-org/online-code-blocks-backend) is up and reachable at the configured `gateway` address.
-
----
 
 ## Deployment
 
